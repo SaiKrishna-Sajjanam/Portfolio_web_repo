@@ -56,7 +56,7 @@ const Hero = () => {
           {/* BUTTONS */}
           <div className="mt-10 flex flex-wrap justify-center lg:justify-start gap-4">
             <a
-              href="/Sai_Krishna_Sajjanam_Data_analyst.pdf"
+              href={`${import.meta.env.BASE_URL}Sai_Krishna_Sajjanam_Data_analyst.pdf`}
               download="Sai_Krishna_Sajjanam_Resume.pdf"
               className={gradientBtn}
             >
