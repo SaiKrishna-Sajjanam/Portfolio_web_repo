@@ -40,7 +40,7 @@ const Hero = () => {
             </span>
           </p>
 
-          <h2 className="mt-4 text-xl md:text-2xl font-semibold text-foreground/90">
+          <h2 className="mt-4 text-xl md:text-xl font-semibold text-foreground/90">
             Senior Data Analyst · BI Analyst · Power BI · Tableau · SQL . Data Engineering
           </h2>
 
@@ -113,8 +113,8 @@ const Hero = () => {
           <div
             className="
               absolute
-              lg:top-[140px]
-              lg:right-[12%]
+              lg:top-[170px]
+              lg:right-[6%]
             "
           >
             <div className="relative rounded-full p-1.5 bg-gradient-to-b from-primary/30 to-transparent ring-2 ring-primary/30 shadow-lg hover:scale-105 transition-transform duration-500">
