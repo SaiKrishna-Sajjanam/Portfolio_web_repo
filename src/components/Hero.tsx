@@ -57,7 +57,7 @@ const Hero = () => {
           <div className="mt-10 flex flex-wrap justify-center lg:justify-start gap-4">
             <a
               href={`${import.meta.env.BASE_URL}Sai_Krishna_Sajjanam_Data_analyst.pdf`}
-              download="Sai_Krishna_Sajjanam_Resume.pdf"
+              download="Sai_Krishna_Sajjanam_Data_Analyst.pdf"
               className={gradientBtn}
             >
               <FileText className="w-5 h-5" />
