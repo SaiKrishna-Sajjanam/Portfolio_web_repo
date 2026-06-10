@@ -1,7 +1,6 @@
 import { FileText, Mail, Linkedin, Github } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 import headshot from "@/assets/WhatsApp Image 2025-11-02 at 16.46.39.jpeg";
-import resumeFile from "@/assets/SAI_KRISHNA_SAJJANAM_Analyst - Google Docs.pdf";
 
 const Hero = () => {
   const gradientBtn =
@@ -42,29 +41,28 @@ const Hero = () => {
           </p>
 
           <h2 className="mt-4 text-xl md:text-2xl font-semibold text-foreground/90">
-            Analyst | SQL | Python | Power BI | Project Management
+            Senior Data Analyst · BI Analyst · Power BI · Tableau · SQL . Data Engineering
           </h2>
 
           <p className="mt-6 text-[1.05rem] leading-relaxed text-gray-700 max-w-2xl font-light">
-            I’m an <span className="font-medium text-gray-900">Analyst</span> with over{" "}
-            <span className="font-medium">5 years of experience in data analytics</span> , I help businesses make smarter, data-driven decisions. 
-            My expertise lies in transforming complex datasets into actionable insights—whether 
-            it’s building automated ETL pipelines, designing intuitive Power BI dashboards, 
-            or applying machine learning to drive measurable impact.  
-
-            My background spans financial services, regulatory reporting, and business intelligence. 
-            I specialize in delivering value through data, analytics, and automation—turning information into strategy.
+            Senior Data &amp; BI Professional with{" "}
+            <span className="font-medium text-gray-900">6+ years of experience</span> transforming how organisations access, trust, and act on their data.
+            Specialised in delivering end-to-end analytics solutions — from KPI frameworks and executive dashboards to data warehouse architecture and cloud pipelines —
+            with a consistent focus on accuracy, performance, and business impact.
+            My background spans <span className="font-medium">financial services, regulatory reporting, and business intelligence</span>,
+            with hands-on expertise across Azure, AWS, Power BI, and Python.
           </p>
 
           {/* BUTTONS */}
           <div className="mt-10 flex flex-wrap justify-center lg:justify-start gap-4">
-            <button
-              className={`${gradientBtn} hidden`}
-              onClick={() => window.open(resumeFile, "_blank")}
+            <a
+              href="/Sai_Krishna_Sajjanam_Data_analyst.pdf"
+              download="Sai_Krishna_Sajjanam_Resume.pdf"
+              className={gradientBtn}
             >
               <FileText className="w-5 h-5" />
               Download CV
-            </button>
+            </a>
 
             <button
               className={gradientBtn}
@@ -80,7 +78,7 @@ const Hero = () => {
               className={gradientBtn}
               onClick={() =>
                 window.open(
-                  "https://www.linkedin.com/in/sai-krishna-sajjanam-52118ba3",
+                  "https://www.linkedin.com/in/sai-krishna-sajjanam-analyst/",
                   "_blank"
                 )
               }
@@ -92,7 +90,7 @@ const Hero = () => {
             <button
               className={gradientBtn}
               onClick={() =>
-                window.open("https://github.com/saikrishna95?tab=repositories", "_blank")
+                window.open("https://github.com/SaiKrishna-Sajjanam", "_blank")
               }
             >
               <Github className="w-5 h-5" />

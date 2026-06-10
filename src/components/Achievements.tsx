@@ -4,23 +4,23 @@ import { Trophy, Star, Award, Target } from "lucide-react";
 const Achievements = () => {
   const achievements = [
     {
-      title: "Excellence in Problem Solving",
-      company: "Goldman Sachs",
-      description: "Stakeholder recognition for exceptional analytical skills and innovative solutions at Infosys",
+      title: "Two Bravo Awards",
+      company: "Knoah Solutions (Time Warner)",
+      description: "Earned two Bravo Awards for outstanding client service and analytical contribution — recognised for building Excel-based trackers that improved resolution time by ~20% and standardised issue management.",
       icon: Trophy,
       color: "from-yellow-500 to-orange-500"
     },
     {
-      title: "CEO-Level Recognition",
-      company: "iConcept",
-      description: "CEO-level appreciation for outstanding product insight presentation and strategic contributions",
+      title: "CEO Recognition",
+      company: "iConcept (Bayer Crop Science)",
+      description: "Restructured KPI presentation ahead of a CEO review — earned direct CEO recognition for analytical clarity and decision-support quality across the enterprise reporting landscape.",
       icon: Star,
       color: "from-blue-500 to-cyan-500"
     },
     {
-      title: "Top Performer",
-      company: "Knoah Solutions",
-      description: "Achieved 'Top Performer' status for 6 consecutive months demonstrating consistent excellence",
+      title: "Stakeholder Recognition",
+      company: "Infosys (Goldman Sachs)",
+      description: "Recognised by Goldman Sachs stakeholders for root-cause analysis that reduced SLA breach incidents from ~15 to 2–3 per month, and for improving report delivery efficiency by 25% through pipeline alignment.",
       icon: Award,
       color: "from-purple-500 to-pink-500"
     }

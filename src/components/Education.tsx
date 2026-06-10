@@ -4,17 +4,17 @@ import { GraduationCap, MapPin, Calendar } from "lucide-react";
 const Education = () => {
   const education = [
     {
-      degree: "MSc in Business Analytics",
+      degree: "Master of Science (MSc) — Business Analytics",
       institution: "Dublin Business School",
-      location: "Ireland",
-      year: "2024",
+      location: "Dublin, Ireland",
+      year: "2023 – 2024",
       type: "Master's Degree"
     },
     {
-      degree: "B.Tech in Electronics & Communication",
-      institution: "JNTU",
-      location: "India",
-      year: "2016",
+      degree: "Bachelor of Technology (B.Tech) — Electronics & Communication Engineering",
+      institution: "Sree Dattha Institute of Engineering and Science (JNTU)",
+      location: "Hyderabad, India",
+      year: "2012 – 2016",
       type: "Bachelor's Degree"
     }
   ];
